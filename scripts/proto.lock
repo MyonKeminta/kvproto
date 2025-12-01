@@ -11391,6 +11391,11 @@
                 "id": 37,
                 "name": "trace_control_flags",
                 "type": "uint64"
+              },
+              {
+                "id": 38,
+                "name": "source_component_type",
+                "type": "string"
               }
             ],
             "reserved_ids": [

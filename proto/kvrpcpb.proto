@@ -952,6 +952,9 @@ message Context {
     // Bits 4-63: Reserved for future use
     // This field is set by client-go based on an extractor function provided by TiDB.
     uint64 trace_control_flags = 37;
+
+    // Used for identifying the type of the sender of the request (tidb, tiflash, ticdc, etc.).
+    string source_component_type = 38;
 }
 
 message ResourceControlContext {
